@@ -1,2 +1,2 @@
-# Skillmap-Dev-Advance-API
-Advance level of API creation for Skillmap Application
+# skill-map-app
+This repo is created for skillmap development
