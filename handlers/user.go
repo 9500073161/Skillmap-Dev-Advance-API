@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/9500073161/skill-map-app/managers"
+	"github.com/9500073161/Skillmap-Dev-Advance-API/managers"
 	"github.com/gin-gonic/gin"
 )
 
