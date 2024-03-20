@@ -9,10 +9,13 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+func init(){
+	database.Initialize()
+
+}
+
 func main() {
 	fmt.Println("Developing Skill-MAP")
-
-	database.Initialize()
 
 	router := gin.Default()
 
