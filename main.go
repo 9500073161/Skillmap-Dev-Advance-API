@@ -3,10 +3,16 @@ package main
 import (
 	"fmt"
 
+	"github.com/9500073161/Skillmap-Dev-Advance-API/database"
 	"github.com/9500073161/Skillmap-Dev-Advance-API/handlers"
 	"github.com/9500073161/Skillmap-Dev-Advance-API/managers"
 	"github.com/gin-gonic/gin"
 )
+
+func init(){
+	database.Initialize()
+
+}
 
 func main() {
 	fmt.Println("Developing Skill-MAP")
